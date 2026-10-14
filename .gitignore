@@ -1,0 +1,30 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+**/coverage/
+.env
+**/.env
+uploads/
+*.log
+.DS_Store
+
+# AI and agent customization files
+.agents/
+**/.agents/
+AGENTS.md
+**/AGENTS.md
+SKILL.md
+**/SKILL.md
+**/skills/
+CONTEXT.md
+**/CONTEXT.md
+.claude/
+.cursor/
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+
+# Local database backups
+server/backups/
